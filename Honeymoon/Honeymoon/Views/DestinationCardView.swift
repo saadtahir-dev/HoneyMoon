@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DestinationCardView: View {
+struct DestinationCardView: View, Identifiable {
     
     let id = UUID()
     let destination: Destination

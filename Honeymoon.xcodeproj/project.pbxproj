@@ -16,8 +16,13 @@
 		327B71B92C05FDE50017ACEA /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71B82C05FDE50017ACEA /* HeaderComponent.swift */; };
 		327B71BB2C05FDEE0017ACEA /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71BA2C05FDEE0017ACEA /* GuideComponent.swift */; };
 		327B71BD2C0602120017ACEA /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71BC2C0602120017ACEA /* GuideView.swift */; };
-		327B71BF2C060B4B0017ACEA /* GuideComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71BE2C060B4B0017ACEA /* GuideComponentData.swift */; };
 		327B71C12C060CE70017ACEA /* GuideComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71C02C060CE70017ACEA /* GuideComponentModel.swift */; };
+		327B71C42C0719C60017ACEA /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71C32C0719C60017ACEA /* TitleModifier.swift */; };
+		327B71C62C071A150017ACEA /* DismissButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71C52C071A150017ACEA /* DismissButtonModifier.swift */; };
+		327B71C82C071C440017ACEA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71C72C071C440017ACEA /* InfoView.swift */; };
+		327B71CA2C0737D50017ACEA /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71C92C0737D50017ACEA /* SymbolModifier.swift */; };
+		327B71CD2C0743100017ACEA /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71CC2C0743100017ACEA /* AnyTransition.swift */; };
+		327B71D02C07469B0017ACEA /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71CF2C07469B0017ACEA /* PlaySound.swift */; };
 		32B0F2BC2BFF6F8A005A13FB /* HoneymoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B0F2BB2BFF6F8A005A13FB /* HoneymoonApp.swift */; };
 		32B0F2C02BFF6F8C005A13FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B0F2BF2BFF6F8C005A13FB /* Assets.xcassets */; };
 		32B0F2C32BFF6F8C005A13FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B0F2C22BFF6F8C005A13FB /* Preview Assets.xcassets */; };
@@ -36,8 +41,13 @@
 		327B71B82C05FDE50017ACEA /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		327B71BA2C05FDEE0017ACEA /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
 		327B71BC2C0602120017ACEA /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
-		327B71BE2C060B4B0017ACEA /* GuideComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponentData.swift; sourceTree = "<group>"; };
 		327B71C02C060CE70017ACEA /* GuideComponentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponentModel.swift; sourceTree = "<group>"; };
+		327B71C32C0719C60017ACEA /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		327B71C52C071A150017ACEA /* DismissButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButtonModifier.swift; sourceTree = "<group>"; };
+		327B71C72C071C440017ACEA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		327B71C92C0737D50017ACEA /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		327B71CC2C0743100017ACEA /* AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition.swift; sourceTree = SOURCE_ROOT; };
+		327B71CF2C07469B0017ACEA /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		32B0F2B82BFF6F8A005A13FB /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B0F2BB2BFF6F8A005A13FB /* HoneymoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonApp.swift; sourceTree = "<group>"; };
 		32B0F2BF2BFF6F8C005A13FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +89,9 @@
 		327B71A62C05E4950017ACEA /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				327B71CE2C07468D0017ACEA /* Utilities */,
+				327B71CB2C0742DE0017ACEA /* Extensions */,
+				327B71C22C0719AA0017ACEA /* CustomModifiers */,
 				327B71B72C05FDCE0017ACEA /* Components */,
 				327B71A92C05E5260017ACEA /* Views */,
 				327B71A82C05E5230017ACEA /* Model */,
@@ -91,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				327B71AA2C05E5510017ACEA /* DestinationData.swift */,
-				327B71BE2C060B4B0017ACEA /* GuideComponentData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -113,6 +125,7 @@
 				327B71B52C05F4C90017ACEA /* FooterView.swift */,
 				327B71AE2C05E6170017ACEA /* DestinationCardView.swift */,
 				327B71BC2C0602120017ACEA /* GuideView.swift */,
+				327B71C72C071C440017ACEA /* InfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,6 +137,32 @@
 				327B71BA2C05FDEE0017ACEA /* GuideComponent.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		327B71C22C0719AA0017ACEA /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				327B71C32C0719C60017ACEA /* TitleModifier.swift */,
+				327B71C52C071A150017ACEA /* DismissButtonModifier.swift */,
+				327B71C92C0737D50017ACEA /* SymbolModifier.swift */,
+			);
+			path = CustomModifiers;
+			sourceTree = "<group>";
+		};
+		327B71CB2C0742DE0017ACEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				327B71CC2C0743100017ACEA /* AnyTransition.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		327B71CE2C07468D0017ACEA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				327B71CF2C07469B0017ACEA /* PlaySound.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		32B0F2AF2BFF6F8A005A13FB = {
@@ -244,17 +283,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				327B71AD2C05E5610017ACEA /* DestinationModel.swift in Sources */,
+				327B71CD2C0743100017ACEA /* AnyTransition.swift in Sources */,
 				327B71AF2C05E6170017ACEA /* DestinationCardView.swift in Sources */,
 				327B71C12C060CE70017ACEA /* GuideComponentModel.swift in Sources */,
+				327B71C42C0719C60017ACEA /* TitleModifier.swift in Sources */,
 				327B71B12C05EDB70017ACEA /* HomeScreen.swift in Sources */,
+				327B71C62C071A150017ACEA /* DismissButtonModifier.swift in Sources */,
+				327B71C82C071C440017ACEA /* InfoView.swift in Sources */,
 				327B71AB2C05E5510017ACEA /* DestinationData.swift in Sources */,
-				327B71BF2C060B4B0017ACEA /* GuideComponentData.swift in Sources */,
 				327B71B92C05FDE50017ACEA /* HeaderComponent.swift in Sources */,
 				327B71B62C05F4C90017ACEA /* FooterView.swift in Sources */,
 				32B0F2BC2BFF6F8A005A13FB /* HoneymoonApp.swift in Sources */,
 				327B71B42C05F1620017ACEA /* HeaderView.swift in Sources */,
+				327B71CA2C0737D50017ACEA /* SymbolModifier.swift in Sources */,
 				327B71BB2C05FDEE0017ACEA /* GuideComponent.swift in Sources */,
 				327B71BD2C0602120017ACEA /* GuideView.swift in Sources */,
+				327B71D02C07469B0017ACEA /* PlaySound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,8 @@ struct FooterView: View {
     @Binding var showAlert: Bool
     
     
+    private let haptics = UINotificationFeedbackGenerator()
+    
     //MARK: - Views
     var body: some View {
         HStack (alignment: .center) {
@@ -27,6 +29,8 @@ struct FooterView: View {
             
             Button {
                 print("Sucess")
+                haptics.notificationOccurred(.success)
+                PlaySound.shared.play(sound: "sound-click", type: "mp3")
                 showAlert.toggle()
             } label: {
                 Text("Book Destination".uppercased())
