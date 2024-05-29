@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    //MARK: - Properties
+    @State var showAlert: Bool = false
+    @State var showGuidView: Bool = false
+    
+    //MARK: - Views
     var body: some View {
         VStack {
-            HeaderView()
+            HeaderView(showGuideView: $showGuidView)
             
             Spacer()
             
@@ -18,9 +23,16 @@ struct HomeScreen: View {
             
             Spacer()
             
-            FooterView()
+            FooterView(showAlert: $showAlert)
         }
         .padding()
+        .alert(isPresented: $showAlert) {
+            Alert(
+                title: Text("SUCCESS"),
+                message: Text("Wishing lovely and most precious of the times togather for the amazing couple."),
+                dismissButton: .default(Text("Happy Honeymoon!!"))
+            )
+        }
     }
 }
 
