@@ -21,8 +21,8 @@
 		327B71C62C071A150017ACEA /* DismissButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71C52C071A150017ACEA /* DismissButtonModifier.swift */; };
 		327B71C82C071C440017ACEA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71C72C071C440017ACEA /* InfoView.swift */; };
 		327B71CA2C0737D50017ACEA /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71C92C0737D50017ACEA /* SymbolModifier.swift */; };
-		327B71CD2C0743100017ACEA /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71CC2C0743100017ACEA /* AnyTransition.swift */; };
 		327B71D02C07469B0017ACEA /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71CF2C07469B0017ACEA /* PlaySound.swift */; };
+		327B71D42C074F8D0017ACEA /* AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B71D32C074F8D0017ACEA /* AnyTransition.swift */; };
 		32B0F2BC2BFF6F8A005A13FB /* HoneymoonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B0F2BB2BFF6F8A005A13FB /* HoneymoonApp.swift */; };
 		32B0F2C02BFF6F8C005A13FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B0F2BF2BFF6F8C005A13FB /* Assets.xcassets */; };
 		32B0F2C32BFF6F8C005A13FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B0F2C22BFF6F8C005A13FB /* Preview Assets.xcassets */; };
@@ -46,8 +46,8 @@
 		327B71C52C071A150017ACEA /* DismissButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButtonModifier.swift; sourceTree = "<group>"; };
 		327B71C72C071C440017ACEA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		327B71C92C0737D50017ACEA /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
-		327B71CC2C0743100017ACEA /* AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition.swift; sourceTree = SOURCE_ROOT; };
 		327B71CF2C07469B0017ACEA /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		327B71D32C074F8D0017ACEA /* AnyTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyTransition.swift; sourceTree = "<group>"; };
 		32B0F2B82BFF6F8A005A13FB /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B0F2BB2BFF6F8A005A13FB /* HoneymoonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonApp.swift; sourceTree = "<group>"; };
 		32B0F2BF2BFF6F8C005A13FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		327B71CB2C0742DE0017ACEA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				327B71CC2C0743100017ACEA /* AnyTransition.swift */,
+				327B71D32C074F8D0017ACEA /* AnyTransition.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -283,7 +283,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				327B71AD2C05E5610017ACEA /* DestinationModel.swift in Sources */,
-				327B71CD2C0743100017ACEA /* AnyTransition.swift in Sources */,
 				327B71AF2C05E6170017ACEA /* DestinationCardView.swift in Sources */,
 				327B71C12C060CE70017ACEA /* GuideComponentModel.swift in Sources */,
 				327B71C42C0719C60017ACEA /* TitleModifier.swift in Sources */,
@@ -297,6 +296,7 @@
 				327B71B42C05F1620017ACEA /* HeaderView.swift in Sources */,
 				327B71CA2C0737D50017ACEA /* SymbolModifier.swift in Sources */,
 				327B71BB2C05FDEE0017ACEA /* GuideComponent.swift in Sources */,
+				327B71D42C074F8D0017ACEA /* AnyTransition.swift in Sources */,
 				327B71BD2C0602120017ACEA /* GuideView.swift in Sources */,
 				327B71D02C07469B0017ACEA /* PlaySound.swift in Sources */,
 			);
